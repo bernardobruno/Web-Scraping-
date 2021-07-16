@@ -13,9 +13,18 @@ Below are some basic questions on Web Scraping and general subjects.
 # 1. Brieﬂy describe the differences between the webbrowser, requests, BeautifulSoup, and selenium modules.
 
 Answer: 
-The webbrowser has an open() method that will launch a web browser to a speciﬁc URL, and that’s it. 
+Browser: if we have a browser we don't need BeautifulSoup. 
+The webbrowser has an open() method that will launch a web browser to a speciﬁc URL. 
 The requests module can download ﬁles and pages from the Web. The BeautifulSoup module parses HTML. 
 The selenium module can launch and control a browser. 
+
+# 1.A - How web scraping is related / not-related to Data Mining and API?
+
+Web scraping refers to the process of extracting data from web sources and structuring it into a more convenient format. It does not involve any data processing or analysis.
+Data mining refers to the process of analyzing large datasets to uncover trends and valuable insights. It does not involve any data gathering or extraction.
+Data mining does not involve data extraction. In fact, web scraping could be used in order to create the datasets to be used in Data Mining.
+API is another data scraping method, however, it works quite differently. An API – application programming interface – is an intermediary that allows one software to talk to another software. In more simple terms, an API allows the user to open up data and functionality to other developers and businesses.
+
 
 # 2. What type of object is returned by requests.get()? How can you access the downloaded content as a string value?
 
